@@ -136,7 +136,7 @@ First Parity Beta 0.9 released.
 - Pruned state DB [#176](https://github.com/openethereum/openethereum/pull/176)
 - Memory management for cache [#180](https://github.com/openethereum/openethereum/pull/180)
 - Implement signs having low-s. [#183](https://github.com/openethereum/openethereum/pull/183)
-- Introduce sha3 crate and use it in ethash [#178](https://github.com/openethereum/openethereum/pull/178)
+- Introduce keccak crate and use it in ethash [#178](https://github.com/openethereum/openethereum/pull/178)
 - Multithreaded block queue [#173](https://github.com/openethereum/openethereum/pull/173)
 - Iterator for NibbleSlice and TrieDB. [#171](https://github.com/openethereum/openethereum/pull/171)
 - Handling all possible overflows [#145](https://github.com/openethereum/openethereum/pull/145)

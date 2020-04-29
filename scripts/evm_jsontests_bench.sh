@@ -11,6 +11,6 @@ cargo build --release -p evmbin
 ./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmPerformance
 ./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmPushDupSwapTest
 ./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmRandomTest
-./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmSha3Test
+./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmkeccakTest
 ./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmSystemOperations
 ./target/release/openethereum-evm stats-jsontests-vm ./ethcore/res/ethereum/tests/VMTests/vmTests

@@ -47,10 +47,10 @@ pub struct Schedule {
 	pub exp_gas: usize,
 	/// Additional gas for `EXP` opcode for each byte of exponent
 	pub exp_byte_gas: usize,
-	/// Gas price for `SHA3` opcode
-	pub sha3_gas: usize,
-	/// Additional gas for `SHA3` opcode for each word of hashed memory
-	pub sha3_word_gas: usize,
+	/// Gas price for `keccak` opcode
+	pub keccak_gas: usize,
+	/// Additional gas for `keccak` opcode for each word of hashed memory
+	pub keccak_word_gas: usize,
 	/// Gas price for loading from storage
 	pub sload_gas: usize,
 	/// Special gas price for dirty gas of SSTORE, after net gas metering.
@@ -239,8 +239,8 @@ impl Schedule {
 			tier_step_gas: [0, 2, 3, 5, 8, 10, 20, 0],
 			exp_gas: 10,
 			exp_byte_gas: if fix_exp {50} else {10},
-			sha3_gas: 30,
-			sha3_word_gas: 6,
+			keccak_gas: 30,
+			keccak_word_gas: 6,
 			sload_gas: 200,
 			sstore_dirty_gas: None,
 			sstore_set_gas: 20000,
@@ -338,8 +338,8 @@ impl Schedule {
 			tier_step_gas: [0, 2, 3, 5, 8, 10, 20, 0],
 			exp_gas: 10,
 			exp_byte_gas: 10,
-			sha3_gas: 30,
-			sha3_word_gas: 6,
+			keccak_gas: 30,
+			keccak_word_gas: 6,
 			sload_gas: 50,
 			sstore_dirty_gas: None,
 			sstore_set_gas: 20000,

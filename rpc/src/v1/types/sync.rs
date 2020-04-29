@@ -91,7 +91,7 @@ pub struct EthProtocolInfo {
 	pub version: u32,
 	/// Peer total difficulty if known
 	pub difficulty: Option<U256>,
-	/// SHA3 of peer best block hash
+	/// keccak of peer best block hash
 	pub head: String,
 }
 
@@ -112,7 +112,7 @@ pub struct PipProtocolInfo {
 	pub version: u32,
 	/// Peer total difficulty
 	pub difficulty: U256,
-	/// SHA3 of peer best block hash
+	/// keccak of peer best block hash
 	pub head: String,
 }
 

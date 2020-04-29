@@ -10,7 +10,7 @@ The full list of included changes:
 - Stable Backports ([#8008](https://github.com/openethereum/openethereum/pull/8008))
   - Reject too large packets in snapshot sync. ([#7977](https://github.com/openethereum/openethereum/pull/7977))
   - Increase max download limit to 128MB ([#7965](https://github.com/openethereum/openethereum/pull/7965))
-  - Calculate proper keccak256/sha3 using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
+  - Calculate proper keccak256/keccak using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
   - Bump WebSockets ([#7952](https://github.com/openethereum/openethereum/pull/7952))
 
 ## Parity [v1.8.10](https://github.com/openethereum/openethereum/releases/tag/v1.8.10) (2018-02-20)
@@ -461,7 +461,7 @@ The full list of included changes:
 - Fix extension detection [#6452](https://github.com/openethereum/openethereum/pull/6452)
 - Downgrade futures to supress warnings [#6521](https://github.com/openethereum/openethereum/pull/6521)
 - separate trie from util and make its dependencies into libs [#6478](https://github.com/openethereum/openethereum/pull/6478)
-- WASM sha3 test [#6512](https://github.com/openethereum/openethereum/pull/6512)
+- WASM keccak test [#6512](https://github.com/openethereum/openethereum/pull/6512)
 - Fix broken JavaScript tests [#6498](https://github.com/openethereum/openethereum/pull/6498)
 - SecretStore: use random key to encrypt channel + session-level nonce [#6470](https://github.com/openethereum/openethereum/pull/6470)
 - Trezor Support [#6403](https://github.com/openethereum/openethereum/pull/6403)

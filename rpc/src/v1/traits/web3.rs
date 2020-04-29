@@ -28,7 +28,7 @@ pub trait Web3 {
 	#[rpc(name = "web3_clientVersion")]
 	fn client_version(&self) -> Result<String>;
 
-	/// Returns sha3 of the given data
-	#[rpc(name = "web3_sha3")]
-	fn sha3(&self, _: Bytes) -> Result<H256>;
+	/// Returns keccak of the given data
+	#[rpc(name = "web3_keccak")]
+	fn keccak(&self, _: Bytes) -> Result<H256>;
 }

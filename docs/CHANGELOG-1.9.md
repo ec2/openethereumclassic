@@ -147,7 +147,7 @@ The full list of included changes:
   - Reject too large packets in snapshot sync. ([#7977](https://github.com/openethereum/openethereum/pull/7977))
   - Fixed broken logs ([#7934](https://github.com/openethereum/openethereum/pull/7934))
   - Increase max download limit to 128MB ([#7965](https://github.com/openethereum/openethereum/pull/7965))
-  - Calculate proper keccak256/sha3 using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
+  - Calculate proper keccak256/keccak using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
   - Bump WebSockets ([#7952](https://github.com/openethereum/openethereum/pull/7952))
   - Hardware-wallet/usb-subscribe-refactor ([#7860](https://github.com/openethereum/openethereum/pull/7860))
   - Make block generator easier to use ([#7888](https://github.com/openethereum/openethereum/pull/7888))

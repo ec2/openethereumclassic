@@ -181,9 +181,9 @@ impl<Gas: evm::CostType> Gasometer<Gas> {
 			instructions::RETURN | instructions::REVERT => {
 				Request::GasMem(default_gas, mem_needed(stack.peek(0), stack.peek(1))?)
 			},
-			instructions::SHA3 => {
+			instructions::keccak => {
 				let words = overflowing!(to_word_size(Gas::from_u256(*stack.peek(1))?));
-				let gas = overflowing!(Gas::from(schedule.sha3_gas).overflow_add(overflowing!(Gas::from(schedule.sha3_word_gas).overflow_mul(words))));
+				let gas = overflowing!(Gas::from(schedule.keccak_gas).overflow_add(overflowing!(Gas::from(schedule.keccak_word_gas).overflow_mul(words))));
 				Request::GasMem(gas, mem_needed(stack.peek(0), stack.peek(1))?)
 			},
 			instructions::CALLDATACOPY | instructions::CODECOPY | instructions::RETURNDATACOPY => {
@@ -268,7 +268,7 @@ impl<Gas: evm::CostType> Gasometer<Gas> {
 
 				let base = Gas::from(schedule.create_gas);
 				let word = overflowing!(to_word_size(Gas::from_u256(*len)?));
-				let word_gas = overflowing!(Gas::from(schedule.sha3_word_gas).overflow_mul(word));
+				let word_gas = overflowing!(Gas::from(schedule.keccak_word_gas).overflow_mul(word));
 				let gas = overflowing!(base.overflow_add(word_gas));
 				let mem = mem_needed(start, len)?;
 

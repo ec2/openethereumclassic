@@ -600,7 +600,7 @@ Full Changes:
 - Fixing decoding ABI with signatures in names [#4125](https://github.com/openethereum/openethereum/pull/4125)
 - Get rid of unsafe code in ethkey, propagate incorrect Secret errors. [#4119](https://github.com/openethereum/openethereum/pull/4119)
 - Basic tests for subscribeToEvents [#4115](https://github.com/openethereum/openethereum/pull/4115)
-- Auto-detect hex encoded bytes in sha3 [#4108](https://github.com/openethereum/openethereum/pull/4108)
+- Auto-detect hex encoded bytes in keccak [#4108](https://github.com/openethereum/openethereum/pull/4108)
 - Use binary chop to estimate gas accurately [#4100](https://github.com/openethereum/openethereum/pull/4100)
 - V1.6 in master [#4113](https://github.com/openethereum/openethereum/pull/4113)
 - Ignore get_price_info test by default. [#4112](https://github.com/openethereum/openethereum/pull/4112)

@@ -709,7 +709,7 @@ This includes the new Parity Wallet and Warp-Sync synchronisation as well as sev
 - Signature cleanup [#1921](https://github.com/openethereum/openethereum/pull/1921)
 - Fixed discovery skipping some nodes [#1996](https://github.com/openethereum/openethereum/pull/1996)
 - Trie query recording and AccountDB factory for no mangling [#1944](https://github.com/openethereum/openethereum/pull/1944)
-- Validating sha3 of a dapp bundle [#1993](https://github.com/openethereum/openethereum/pull/1993)
+- Validating keccak of a dapp bundle [#1993](https://github.com/openethereum/openethereum/pull/1993)
 - Improve eth_getWork timeout test rpc_get_work_should_timeout [#1992](https://github.com/openethereum/openethereum/pull/1992)
 - Resolving URLs from contract [#1964](https://github.com/openethereum/openethereum/pull/1964)
 - Add timeout for eth_getWork call [#1975](https://github.com/openethereum/openethereum/pull/1975)

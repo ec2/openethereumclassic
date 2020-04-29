@@ -22,7 +22,7 @@ use BlockNumber;
 /// Uniquely identifies block.
 #[derive(Debug, PartialEq, Copy, Clone, Hash, Eq)]
 pub enum BlockId {
-	/// Block's sha3.
+	/// Block's keccak.
 	/// Querying by hash is always faster.
 	Hash(H256),
 	/// Block number within canon blockchain.
@@ -36,7 +36,7 @@ pub enum BlockId {
 /// Uniquely identifies transaction.
 #[derive(Debug, PartialEq, Clone, Hash, Eq)]
 pub enum TransactionId {
-	/// Transaction's sha3.
+	/// Transaction's keccak.
 	Hash(H256),
 	/// Block id and transaction index within this block.
 	/// Querying by block position is always faster.

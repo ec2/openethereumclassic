@@ -31,7 +31,7 @@ impl Web3 for Web3Client {
 		Ok(version().to_owned().replacen("/", "//", 1))
 	}
 
-	fn sha3(&self, data: Bytes) -> Result<H256> {
+	fn keccak(&self, data: Bytes) -> Result<H256> {
 		Ok(keccak(&data.0))
 	}
 }

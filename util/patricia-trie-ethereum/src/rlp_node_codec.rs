@@ -103,7 +103,7 @@ impl NodeCodec for RlpNodeCodec<KeccakHasher> {
 			// either leaf or extension - decode first item with NibbleSlice::???
 			// and use is_leaf return to figure out which.
 			// if leaf, second item is a value (is_data())
-			// if extension, second item is a node (either SHA3 to be looked up and
+			// if extension, second item is a node (either keccak to be looked up and
 			// fed back into this function or inline RLP which can be fed back into this function).
 			Prototype::List(2) => {
 				let (partial_rlp, mut partial_offset) = r.at_with_offset(0)?;

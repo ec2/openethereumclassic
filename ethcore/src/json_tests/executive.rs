@@ -374,6 +374,6 @@ declare_test!{ExecutiveTests_vmLogTest, "VMTests/vmLogTest"}
 declare_test!{heavy => ExecutiveTests_vmPerformance, "VMTests/vmPerformance"}
 declare_test!{ExecutiveTests_vmPushDupSwapTest, "VMTests/vmPushDupSwapTest"}
 declare_test!{ExecutiveTests_vmRandomTest, "VMTests/vmRandomTest"}
-declare_test!{ExecutiveTests_vmSha3Test, "VMTests/vmSha3Test"}
+declare_test!{ExecutiveTests_vmkeccakTest, "VMTests/vmkeccakTest"}
 declare_test!{ExecutiveTests_vmSystemOperationsTest, "VMTests/vmSystemOperations"}
 declare_test!{ExecutiveTests_vmTests, "VMTests/vmTests"}

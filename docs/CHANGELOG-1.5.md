@@ -563,7 +563,7 @@ Full changes:
   - Remove bindActionCreators({}, dispatch) (empty) ([#4135](https://github.com/openethereum/openethereum/pull/4135))
 - Backporting to beta [#4118](https://github.com/openethereum/openethereum/pull/4118)
   - Ignore get_price_info test by default. ([#4112](https://github.com/openethereum/openethereum/pull/4112))
-  - Auto-detect hex encoded bytes in sha3 ([#4108](https://github.com/openethereum/openethereum/pull/4108))
+  - Auto-detect hex encoded bytes in keccak ([#4108](https://github.com/openethereum/openethereum/pull/4108))
   - Using types/isHex
   - Removing unused imports
   - Use binary chop to estimate gas accurately ([#4100](https://github.com/openethereum/openethereum/pull/4100))
@@ -593,7 +593,7 @@ Full changes:
 - Fix tags not working [#4070](https://github.com/openethereum/openethereum/pull/4070)
 - Zero-alloc trie lookups [#3998](https://github.com/openethereum/openethereum/pull/3998)
 - Opening local dapp [#4041](https://github.com/openethereum/openethereum/pull/4041)
-- Bringing back `js-sha3` to fix in-browser signing [#4063](https://github.com/openethereum/openethereum/pull/4063)
+- Bringing back `js-keccak` to fix in-browser signing [#4063](https://github.com/openethereum/openethereum/pull/4063)
 - Fix wrong transaction input for contract deployments [#4052](https://github.com/openethereum/openethereum/pull/4052)
 - Re-broadcast transactions to few random peers on each new block. [#4054](https://github.com/openethereum/openethereum/pull/4054)
 - Removing old transactions from the queue [#4046](https://github.com/openethereum/openethereum/pull/4046)

@@ -46,6 +46,9 @@ OpenEthereum's goal is to be the fastest, lightest, and most secure Ethereum cli
 
 By default, OpenEthereum runs a JSON-RPC HTTP server on port `:8545` and a Web-Sockets server on port `:8546`. This is fully configurable and supports a number of APIs.
 
+OpenEthereumClassic comes fully equipped with ProgPoW, right out of the box.  Here's how it works:
+![How ProgPoW Works](EPPmQZkWAAglITK.jpg)
+
 If you run into problems while using OpenEthereum, check out the [old wiki for documentation](https://wiki.parity.io/), feel free to [file an issue in this repository](https://github.com/openethereum/openethereum/issues/new), or hop on our [Discord](https://discord.io/openethereum) chat room to ask a question. We are glad to help!
 
 You can download OpenEthereum's latest release at [the releases page](https://github.com/openethereum/openethereum/releases) or follow the instructions below to build from source. Read the [CHANGELOG.md](CHANGELOG.md) for a list of all changes between different versions.

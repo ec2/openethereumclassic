@@ -48,6 +48,7 @@ By default, OpenEthereum runs a JSON-RPC HTTP server on port `:8545` and a Web-S
 
 OpenEthereumClassic comes fully equipped with ProgPoW, right out of the box.  Here's how it works:
 ![How ProgPoW Works](EPPmQZkWAAglITK.jpg)
+Credit for graphic [Stop And Decrypt] (https://twitter.com/StopAndDecrypt/status/1221573097654013956)
 
 If you run into problems while using OpenEthereum, check out the [old wiki for documentation](https://wiki.parity.io/), feel free to [file an issue in this repository](https://github.com/openethereum/openethereum/issues/new), or hop on our [Discord](https://discord.io/openethereum) chat room to ask a question. We are glad to help!
 

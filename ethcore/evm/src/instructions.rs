@@ -101,8 +101,8 @@ enum_with_from_u8! {
 		#[doc = "arithmetic shift right operation"]
 		SAR = 0x1d,
 
-		#[doc = "compute SHA3-256 hash"]
-		SHA3 = 0x20,
+		#[doc = "compute keccak-256 hash"]
+		keccak = 0x20,
 
 		#[doc = "get address of currently executing account"]
 		ADDRESS = 0x30,
@@ -331,7 +331,7 @@ enum_with_from_u8! {
 		RETURN = 0xf3,
 		#[doc = "like CALLCODE but keeps caller's value and sender"]
 		DELEGATECALL = 0xf4,
-		#[doc = "create a new account and set creation address to sha3(sender + sha3(init code)) % 2**160"]
+		#[doc = "create a new account and set creation address to keccak(sender + keccak(init code)) % 2**160"]
 		CREATE2 = 0xf5,
 		#[doc = "stop execution and revert state changes. Return output data."]
 		REVERT = 0xfd,
@@ -482,7 +482,7 @@ lazy_static! {
 		arr[SIGNEXTEND as usize] = Some(InstructionInfo::new("SIGNEXTEND", 2, 1, GasPriceTier::Low));
 		arr[RETURNDATASIZE as usize] = Some(InstructionInfo::new("RETURNDATASIZE", 0, 1, GasPriceTier::Base));
 		arr[RETURNDATACOPY as usize] = Some(InstructionInfo::new("RETURNDATACOPY", 3, 0, GasPriceTier::VeryLow));
-		arr[SHA3 as usize] = Some(InstructionInfo::new("SHA3", 2, 1, GasPriceTier::Special));
+		arr[keccak as usize] = Some(InstructionInfo::new("keccak", 2, 1, GasPriceTier::Special));
 		arr[ADDRESS as usize] = Some(InstructionInfo::new("ADDRESS", 0, 1, GasPriceTier::Base));
 		arr[BALANCE as usize] = Some(InstructionInfo::new("BALANCE", 1, 1, GasPriceTier::Special));
 		arr[ORIGIN as usize] = Some(InstructionInfo::new("ORIGIN", 0, 1, GasPriceTier::Base));

@@ -144,7 +144,7 @@ Full Changes:
 - Make BlockNumber optional, fix eth_call [#829](https://github.com/openethereum/openethereum/pull/829)
 - Test socket to common test code (ethcore-devtools) [#831](https://github.com/openethereum/openethereum/pull/831)
 - Use network id for the web3_net_version return. [#822](https://github.com/openethereum/openethereum/pull/822)
-- json-rpc web3_sha3 [#824](https://github.com/openethereum/openethereum/pull/824)
+- json-rpc web3_keccak [#824](https://github.com/openethereum/openethereum/pull/824)
 - remove some unused files [#819](https://github.com/openethereum/openethereum/pull/819)
 - debug symbols for master/beta [#818](https://github.com/openethereum/openethereum/pull/818)
 - Syntax helpers for IPC RPC [#809](https://github.com/openethereum/openethereum/pull/809)

@@ -18,7 +18,7 @@ Parity 1.0.1 update fixes a number of issues with Json RPC, transaction propagat
 - Merge fixes from master to beta [#845](https://github.com/openethereum/openethereum/pull/845)
 - Full sync restart on bad block [#844](https://github.com/openethereum/openethereum/pull/844)
 - Make BlockNumber optional, fix eth_call [#828](https://github.com/openethereum/openethereum/pull/828)
-- Web3sha3 beta [#826](https://github.com/openethereum/openethereum/pull/826)
+- Web3keccak beta [#826](https://github.com/openethereum/openethereum/pull/826)
 - Use network id for the web3_net_version return. [#821](https://github.com/openethereum/openethereum/pull/821)
 - Fix mining from spinning [#806](https://github.com/openethereum/openethereum/pull/806)
 - Merge master to beta [#796](https://github.com/openethereum/openethereum/pull/796)

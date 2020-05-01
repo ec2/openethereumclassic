@@ -50,12 +50,12 @@ fn test_add(factory: super::Factory) {
 	assert_store(&ext, 0, "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe");
 }
 
-evm_test!{test_sha3: test_sha3_int}
-fn test_sha3(factory: super::Factory) {
+evm_test!{test_keccak: test_keccak_int}
+fn test_keccak(factory: super::Factory) {
 	let address = Address::from_str("0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6").unwrap();
 	// 60 00    PUSH 0
 	// 60 00    PUSH 0
-	// 20       SHA3
+	// 20       keccak
 	// 60 00    PUSH 0
 	// 55       SSTORE
 	let code = hex!("6000600020600055").to_vec();

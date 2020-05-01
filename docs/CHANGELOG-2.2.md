@@ -334,7 +334,7 @@ The full list of included changes:
 - Test.sh: use cargo --target for platforms other than linux, win or mac ([#9650](https://github.com/openethereum/openethereum/pull/9650))
 - Ci: fix push script ([#9679](https://github.com/openethereum/openethereum/pull/9679))
 - Hardfork the testnets ([#9562](https://github.com/openethereum/openethereum/pull/9562))
-- Calculate sha3 instead of sha256 for push-release. ([#9673](https://github.com/openethereum/openethereum/pull/9673))
+- Calculate keccak instead of sha256 for push-release. ([#9673](https://github.com/openethereum/openethereum/pull/9673))
 - Ethcore-io retries failed work steal ([#9651](https://github.com/openethereum/openethereum/pull/9651))
 - Fix(light_fetch): avoid race with BlockNumber::Latest ([#9665](https://github.com/openethereum/openethereum/pull/9665))
 - Test fix for windows cache name... ([#9658](https://github.com/openethereum/openethereum/pull/9658))

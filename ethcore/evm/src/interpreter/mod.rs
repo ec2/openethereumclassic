@@ -730,7 +730,7 @@ impl<Cost: CostType> Interpreter<Cost> {
 			instructions::MSIZE => {
 				self.stack.push(U256::from(self.mem.size()));
 			},
-			instructions::SHA3 => {
+			instructions::keccak => {
 				let offset = self.stack.pop_back();
 				let size = self.stack.pop_back();
 				let k = keccak(self.mem.read_slice(offset, size));

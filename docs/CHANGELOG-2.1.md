@@ -216,7 +216,7 @@ The full list of included changes:
   - Remove master from releasable branches ([#9655](https://github.com/openethereum/openethereum/pull/9655))
   - Test fix for windows cache name... ([#9658](https://github.com/openethereum/openethereum/pull/9658))
   - Fix(light_fetch): avoid race with BlockNumber::Latest ([#9665](https://github.com/openethereum/openethereum/pull/9665))
-  - Calculate sha3 instead of sha256 for push-release. ([#9673](https://github.com/openethereum/openethereum/pull/9673))
+  - Calculate keccak instead of sha256 for push-release. ([#9673](https://github.com/openethereum/openethereum/pull/9673))
   - Ci: fix push script ([#9679](https://github.com/openethereum/openethereum/pull/9679))
   - CI: Remove unnecessary pipes ([#9681](https://github.com/openethereum/openethereum/pull/9681))
   - Don't hash the init_code of CREATE. ([#9688](https://github.com/openethereum/openethereum/pull/9688))

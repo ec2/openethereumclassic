@@ -461,7 +461,7 @@ usage! {
 
 			ARG arg_node_key: (Option<String>) = None, or |c: &Config| c.network.as_ref()?.node_key.clone(),
 			"--node-key=[KEY]",
-			"Specify node secret key, either as 64-character hex string or input to SHA3 operation.",
+			"Specify node secret key, either as 64-character hex string or input to keccak operation.",
 
 			ARG arg_reserved_peers: (Option<String>) = None, or |c: &Config| c.network.as_ref()?.reserved_peers.clone(),
 			"--reserved-peers=[FILE]",

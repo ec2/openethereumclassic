@@ -384,7 +384,7 @@ The full list of included changes:
 - Reject too large packets in snapshot sync. ([#7977](https://github.com/openethereum/openethereum/pull/7977))
 - fixed broken logs ([#7934](https://github.com/openethereum/openethereum/pull/7934))
 - Increase max download limit to 128MB ([#7965](https://github.com/openethereum/openethereum/pull/7965))
-- Calculate proper keccak256/sha3 using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
+- Calculate proper keccak256/keccak using parity. ([#7953](https://github.com/openethereum/openethereum/pull/7953))
 - Add changelog for 1.8.10 stable and 1.9.3 beta ([#7947](https://github.com/openethereum/openethereum/pull/7947))
 - kvdb-rocksdb: remove buffered operations when committing transaction ([#7950](https://github.com/openethereum/openethereum/pull/7950))
 - Bump WebSockets ([#7952](https://github.com/openethereum/openethereum/pull/7952))
